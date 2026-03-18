@@ -1,0 +1,30 @@
+
+    body {
+      font-family: Arial;
+      padding: 20px;
+    }
+
+    /* Image styling */
+    .image-container img {
+      margin: 70px;
+      width: 200px;
+      height: 200px;
+      transition: transform 0.3s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.5);
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    #focusedInput > input:focus {
+      background-color:#FD3DB5
+    } 
+
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+    }
